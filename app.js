@@ -8,7 +8,6 @@ const Path = require('path');
 const Handlebars = require('handlebars');
 const fs = require("fs");
 const Sequelize = require('sequelize');
-const Fetch = require("node-fetch");
 const FormData = require("form-data");
 const pg = require('pg');
 
