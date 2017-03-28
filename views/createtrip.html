@@ -1,0 +1,56 @@
+<div id="mainForm">
+    <div id="logo"></div>
+
+    <h3>Let's Create Your New Trip!</h3>
+    <form action="/formTrip" method="POST">
+
+        <label for="tripName">Give Your Trip A Name:
+            <input type="text" name="tripName" id="tripName" value="default">
+        </label>
+        <br>
+        <br>
+
+
+        <label for="departure">Departure City:
+            <select name="departure" id="departure">
+                <option value="Miami">Miami</option>
+                <option value="Orlando">Orlando</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Los angeles">Los angeles</option>
+            </select>
+        </label>
+
+        <br>
+        <br>
+
+        <label for="destination">Destination City:
+            <select name="destination" id="destination">
+                <option value="New York">New York City</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Paris">Paris</option>
+                <option value="London">London</option>
+            </select>
+        </label>
+
+        <br>
+        <br>
+        
+        <label for="startdate">Departure Date:
+            <input type="date" name="startdate" id="startdate" min="2017-03-22">
+        </label> 
+       
+        <br> 
+        <br>
+        
+        <label for="enddate">Return Date:
+            <input type="date" name="enddate" id="enddate" min="2017-03-23">
+        </label> 
+        
+        <br>
+        <br>
+
+
+        <input type="submit" value="Start your trip">
+
+    </form>
+</div>

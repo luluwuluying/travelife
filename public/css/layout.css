@@ -1,0 +1,44 @@
+body{
+    background-image: url("../images/sky.png");
+    font-family: sans-serif;
+}
+
+#mainForm{
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#departure{
+    width: 100%;
+}
+
+#destination{
+    width: 100%;
+}
+
+
+#logo{
+    background-image: url("../images/travellife.png");
+    width: 600px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+
+#mainRes{
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#createNewTrips{
+    text-align: center;
+}
+
+#createNewTrips h3{
+    text-transform: uppercase;
+}
+
