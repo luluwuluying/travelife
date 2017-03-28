@@ -22,6 +22,9 @@ const server = new Hapi.Server({
     }
 });
 
+var sequelize;
+
+
 server.connection({
     port: (process.env.PORT || 3000)
 });
@@ -49,6 +52,7 @@ if (process.env.DATABASE_URL) {
         storage: 'db.sqlite'
     });
 }
+
    
 var Trip = sequelize.define('trip', {
     tripName: {
