@@ -79,6 +79,7 @@ server.views({
         html: Handlebars
     },
     path: 'views',
+    relativeTo: __dirname,
     layoutPath: 'views/layout',
     layout: 'layout',
     helpersPath: 'views/helpers',
