@@ -78,17 +78,13 @@ server.views({
     engines: {
         html: Handlebars
     },
-<<<<<<< HEAD
     path: Path.join(__dirname, 'views'),
-=======
-    path: 'views',
-    relativeTo: __dirname,
->>>>>>> origin/master
     layoutPath: 'views/layout',
     layout: 'layout',
     helpersPath: 'views/helpers',
     //partialsPath: 'views/partials'
 });
+
 
 
 server.route({
@@ -163,10 +159,10 @@ server.route({
 
 server.route({
     method: 'GET',
-    path: '/createTrip',
+    path: '/createtrip',
     handler: {
         view: {
-            template: 'createTrip'
+            template: 'createtrip'
         }
     }
 });
