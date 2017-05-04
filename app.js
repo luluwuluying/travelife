@@ -78,7 +78,7 @@ server.views({
     engines: {
         html: Handlebars
     },
-    path: 'views',
+    path: Path.join(__dirname, 'views'),
     layoutPath: 'views/layout',
     layout: 'layout',
     helpersPath: 'views/helpers',
